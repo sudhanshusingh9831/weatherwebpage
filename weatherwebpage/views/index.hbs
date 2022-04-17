@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    {{>header}}
+    <div class="body">
+        <div class="part" id="first">
+            <h1>Weather Updates</h1>
+            <p>For the Latest Updates of Weather In Any City </p>
+            <button class="btn" onclick="window.location.href='/weather'" >CLICK ME</button>
+            </div>
+        <div class="part" id="second">
+            <img src="img/weather.jpg" alt="">
+        </div>
+    </div>
+    {{>footer}}
+</body>
+</html>
